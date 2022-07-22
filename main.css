@@ -1,25 +1,25 @@
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
-.main-container{
+.main-container {
   width: 100%;
   height: 5345px;
-  background-color: #02050E;
+  background-color: #02050e;
   background-image: url(mediaFiles/Ornament.svg);
 }
 
-.header-nav{
+.header-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 80%px;
+  width: 80%;
   height: 56px;
   padding-top: 40px;
 }
 
-.logo-nav{
+.logo-nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,36 +27,37 @@ body {
   height: 56px;
   width: 250px;
 }
-.logo{
+
+.logo {
   height: 40px;
-  width: 140px; 
+  width: 140px;
 }
 
-.logo:hover{
+.logo:hover {
   cursor: pointer;
   transform: translateY(-2px);
 }
 
-.nav-list{
+.nav-list {
   display: flex;
   flex-direction: row;
   width: 860px;
   height: 56px;
-  
 }
-.nav-ul{
+
+.nav-ul {
   display: flex;
   flex-direction: row;
-  align-content: center; 
+  align-content: center;
   float: right;
   width: 520px;
   justify-content: space-between;
   margin-right: 20px;
   margin-right: 50px;
-  
 }
-li{
-  color: #ADB9C7;
+
+li {
+  color: #adb9c7;
   list-style-type: none;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -64,21 +65,20 @@ li{
   font-weight: 600;
 }
 
-li:hover{
-  border-bottom:2px solid #1E50FF;
+li:hover {
+  border-bottom: 2px solid #1e50ff;
   color: #fff;
   cursor: pointer;
   transform: translateY(-2px);
-  
 }
 
-.Connect-Wallet{
+.Connect-Wallet {
   width: 175px;
   height: 56px;
   border-radius: 15px;
   border-style: solid;
   border-width: 2px;
-  border-color: #1E50FF;
+  border-color: #1e50ff;
   background-color: transparent;
   color: aliceblue;
   margin-left: 30px;
@@ -88,7 +88,7 @@ li:hover{
   font-weight: 600;
 }
 
-.Connect-Wallet:hover{
+.Connect-Wallet:hover {
   transform: translateY(-2px);
   cursor: pointer;
 }
