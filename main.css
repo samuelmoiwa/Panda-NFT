@@ -1,0 +1,949 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #02050e;
+  background-image: url(mediaFiles/Ornament.svg);
+}
+
+.header-nav {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  align-self: center;
+  width: 80%;
+  height: 56px;
+  padding-top: 40px;
+}
+
+.logo-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 56px;
+  width: 250px;
+}
+
+.logo {
+  height: 40px;
+  width: 140px;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  width: 860px;
+  height: 56px;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  float: right;
+  width: 520px;
+  justify-content: space-between;
+  margin-right: 20px;
+  margin-right: 50px;
+}
+
+li {
+  color: #adb9c7;
+  list-style-type: none;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+li:hover {
+  border-bottom: 2px solid #1e50ff;
+  color: #fff;
+  cursor: pointer;
+  transform: translateY(-2px);
+}
+
+.Connect-Wallet {
+  width: 175px;
+  height: 56px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1e50ff;
+  background-color: transparent;
+  color: aliceblue;
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+}
+
+.Connect-Wallet:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 568px;
+  margin-top: 90px;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+
+.hero-text-1 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 50px;
+  line-height: 60px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hero-text-2 {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+  color: #adb9c7;
+  font-size: 16px;
+  line-height: 22px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 60px;
+}
+
+.get-started-btn {
+  height: 60px;
+  width: 125px;
+}
+
+.get-started-btn:hover {
+  cursor: pointer;
+}
+
+.hero-image-Placeholder {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+  height: 352px;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.hero-img1 {
+  height: 295px;
+}
+
+.hero-img1:hover {
+  transform: translateY(-4px);
+  cursor: pointer;
+}
+
+.crypto-comapnies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.crypto-logos {
+  display: flex;
+  flex-direction: row;
+  height: 56.77px;
+  width: 70%;
+  justify-content: space-evenly;
+}
+
+.crypto-comapnies-logo:hover {
+  cursor: pointer;
+}
+
+.Create-and-sell-your-NFTs-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.Create-and-sell-your-NFTs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 552px;
+}
+
+.sell-nft-header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+}
+
+.creat-cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 90px;
+}
+
+.creat-card1 {
+  display: flex;
+  flex-direction: column;
+  width: 294px;
+  height: 310px;
+  background: #272d37;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.creat-card1:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+.creat-card2 {
+  display: flex;
+  flex-direction: column;
+  width: 294px;
+  height: 310px;
+  background: transparent;
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.creat-card2:hover {
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
+.creat-card-icon {
+  margin-top: 35px;
+  height: 80px;
+}
+
+.card-heading {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 32px;
+  align-self: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
+.card-P {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 24px;
+  text-align: center;
+  color: #adb9c7;
+  margin-top: 15px;
+}
+
+.Live-Auctions-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 120px;
+}
+
+.Live-Auction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  height: 552px;
+}
+
+.live-auctions-header {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Live-Auctions-header-text {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  float: left;
+}
+
+.Auctions-get-started-btn {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1e50ff;
+  background-color: transparent;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 600;
+  float: right;
+}
+
+.Auctions-get-started-btn:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.Auctions-cards {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+}
+
+.Auctions-card1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 284px;
+  padding-bottom: 15px;
+  background: #272d37;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Auctions-card-image1 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/IMG-auctions1.png);
+  background-size: contain;
+}
+
+.Auctions-card-image3 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/IMG-auctions3.png);
+  background-size: contain;
+}
+
+.Auctions-card-image2 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/IMG-auctions2.png);
+  background-size: contain;
+}
+
+.like-icone-nft {
+  float: right;
+  margin-top: 20px;
+  margin-right: 15px;
+}
+
+.like-icone-nft:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.Dao-Vinci-div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 10px;
+}
+
+.Dao-Vinci {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.Current-Bid {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #adb9c7;
+  margin: 0;
+  padding: 0;
+}
+
+.SalvadorDali-div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 5px;
+}
+
+.SalvadorDali {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.SalvadorDali-image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.SalvadorDali-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  text-align: center;
+  color: #adb9c7;
+  margin: 0;
+  padding: 0;
+}
+
+.eTH {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.Coutdown-div {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 15px;
+}
+
+.Coutdown {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Coutdown-image {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.Coutdown-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.bid-btn {
+  background-color: #1e50ff;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+}
+
+.bid-btn:hover {
+  background-color: #3e5ac2;
+}
+
+.Auctions-card1:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.Featured-Artist-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+.Featured-Artist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  padding: 20px;
+}
+
+.Featured-Artist-header {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Featured-Artist-header-text {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 64px;
+  text-align: center;
+  color: #fff;
+  float: left;
+}
+
+.Featured-Artist-get-started-btn {
+  display: flex;
+  flex-direction: row;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1e50ff;
+  background-color: transparent;
+  color: aliceblue;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  line-height: 32px;
+  font-weight: 600;
+  float: right;
+}
+
+.Featured-Artist-get-started-btn:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.Featured-Artist-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.Artist-image1 {
+  margin-top: 5px;
+  background-image: url(mediaFiles/user-profile-pic1.png);
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Artist-image2 {
+  margin-top: 5px;
+  background-image: url(mediaFiles/user-profile-pic2.png);
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Artist-image3 {
+  margin-top: 5px;
+  background-image: url(mediaFiles/user-profile-pic3.png);
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Artist-image4 {
+  margin-top: 5px;
+  background-image: url(mediaFiles/user-profile-pic4.png);
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Artist-image5 {
+  margin-top: 5px;
+  background-image: url(mediaFiles/user-profile-pic5.png);
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Artist-image6 {
+  margin-top: 5px;
+  background-image: url(mediaFiles/user-profile-pic6.png);
+  height: 120px;
+  width: 120px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.check-icon {
+  float: right;
+  margin-top: 90px;
+}
+
+.user-name {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.eth-details-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.eth-number {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.Hot-NFTs-section {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.Hot-NFTs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.Hot-NFTs-header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.Hot-NFTs-header-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
+  cursor: pointer;
+}
+
+.Hot-NFTs-header-buttons {
+  display: flex;
+  flex-direction: row;
+  width: 55%;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.Hot-NFTs-header-btn {
+  background-color: rgba(30, 80, 255, 0.1);
+  border: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  width: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.Hot-NFTs-header-btn:hover {
+  background-color: #1e50ff;
+  cursor: pointer;
+  box-shadow: 10px 5px 52px rgba(30, 80, 255, 0.5);
+  transform: translateY(-2px);
+}
+
+.Hot-NFTs-card-image1 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/hot-nft-image1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Hot-NFTs-card-image2 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/hot-nft-image2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Hot-NFTs-card-image3 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/hot-nft-image3.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Hot-NFTs-card-image4 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/hot-nft-image4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Hot-NFTs-card-image5 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/hot-nft-image5.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.Hot-NFTs-card-image6 {
+  height: 273px;
+  width: 260px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-image: url(mediaFiles/hot-nft-image6.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.view-more-nft-btn {
+  width: 200px;
+  height: 56px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #1e50ff;
+  background-color: transparent;
+  color: aliceblue;
+  margin-left: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-top: 70px;
+}
+
+.view-more-nft-btn:hover {
+  transform: translateY(-2px);
+  cursor: pointer;
+}
+
+.gta-section {
+  display: flex;
+  flex-direction: column;
+  background-color: #1e50ff;
+  width: 70%;
+  height: 352px;
+  margin-top: 130px;
+  backdrop-filter: blur(74px);
+  border-radius: 16px;
+}
+
+.gta-header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 70px;
+}
+
+.gta-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 30px;
+  line-height: 32px;
+}
+
+.gta-btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.gta-btn {
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #1e50ff;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.gta-btn:hover {
+  cursor: pointer;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  background-color: #02050e;
+  background-image: url(mediaFiles/footer-background.png);
+  justify-content: center;
+  margin-top: 140px;
+  width: 100%;
+  height: 480px;
+}
+
+.footer-main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 80px;
+  width: 80%;
+}
+
+.footer-logo {
+  margin-top: 25px;
+}
+
+.footer-logo-list,
+.Contact-text {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  padding: 0;
+  line-height: 32px;
+}
+
+.resource-header,
+.company-header,
+.Contact-header {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  padding: 0;
+  line-height: 32px;
+}
+
+.footer-resource-list,
+.footer-company-list {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.Facebook,
+.Instagram,
+.twitter {
+  cursor: pointer;
+}
