@@ -13,7 +13,7 @@ Run the command below from the terminal
 # Hello Microverse
 
 > Description the project.
-- simple HTML & CSS code, displaying Hello microverse on the broweser.
+- simple HTML & CSS code, single page NFT site design.
 - configure with linters 
 
 
