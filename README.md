@@ -7,8 +7,8 @@
 Run the command below from the terminal
 
 - git clone in your terminal
-- cd hello-micriverse
-- start index.html
+- cd Panda-NFT
+- start main.html
 
 # Hello Microverse
 
