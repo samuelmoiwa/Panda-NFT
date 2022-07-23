@@ -95,22 +95,22 @@ li:hover {
   cursor: pointer;
 }
 
-.hero-section{
+.hero-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 568px; 
+  height: 568px;
   margin-top: 90px;
 }
 
-.hero-text{
+.hero-text {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: center;
 }
 
-.hero-text-1{
+.hero-text-1 {
   font-weight: 700;
   color: #fff;
   font-size: 50px;
@@ -118,63 +118,64 @@ li:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-.hero-text-2{
+.hero-text-2 {
   display: flex;
   flex-direction: column;
   font-weight: 400;
-  color: #ADB9C7;
+  color: #adb9c7;
   font-size: 16px;
   line-height: 22px;
   font-family: 'Poppins', sans-serif;
   margin-left: 60px;
 }
 
-.get-started-btn{
+.get-started-btn {
   height: 60px;
   width: 125px;
 }
 
-.get-started-btn:hover{
+.get-started-btn:hover {
   cursor: pointer;
 }
-.hero-image-Placeholder{
+
+.hero-image-Placeholder {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   margin-top: 50px;
   height: 352px;
   width: 95%;
   justify-content: space-between;
 }
 
-.hero-img1{
+.hero-img1 {
   height: 295px;
 }
 
-.hero-img1:hover{
+.hero-img1:hover {
   transform: translateY(-4px);
   cursor: pointer;
 }
 
-.crypto-comapnies{
+.crypto-comapnies {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 50px;
 }
 
-.crypto-logos{
+.crypto-logos {
   display: flex;
   flex-direction: row;
   height: 56.77px;
   width: 70%;
   justify-content: space-evenly;
 }
-.crypto-comapnies-logo:hover{
+
+.crypto-comapnies-logo:hover {
   cursor: pointer;
 }
 
-.Create-and-sell-your-NFTs-section{
+.Create-and-sell-your-NFTs-section {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -182,7 +183,7 @@ li:hover {
   margin-top: 120px;
 }
 
-.Create-and-sell-your-NFTs{
+.Create-and-sell-your-NFTs {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -190,39 +191,39 @@ li:hover {
   height: 552px;
 }
 
-.sell-nft-header{
+.sell-nft-header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 64px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
-.creat-cards{
+.creat-cards {
   display: flex;
   flex-direction: row;
   margin-top: 90px;
 }
 
-.creat-card1{
+.creat-card1 {
   display: flex;
   flex-direction: column;
   width: 294px;
   height: 310px;
-  background: #272D37;
+  background: #272d37;
   border-radius: 16px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.creat-card1:hover{
+.creat-card1:hover {
   cursor: pointer;
   transform: translateY(-4px);
 }
 
-.creat-card2{
+.creat-card2 {
   display: flex;
   flex-direction: column;
   width: 294px;
@@ -236,41 +237,39 @@ li:hover {
   margin-right: 10px;
 }
 
-.creat-card2:hover{
+.creat-card2:hover {
   cursor: pointer;
   transform: translateY(-4px);
 }
 
-
-.creat-card-icon{
+.creat-card-icon {
   margin-top: 35px;
   height: 80px;
 }
 
-.card-heading{
+.card-heading {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 32px;
   align-self: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 30px;
 }
 
-.card-P{
+.card-P {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 24px;
   text-align: center;
-  color: #ADB9C7;
+  color: #adb9c7;
   margin-top: 15px;
 }
 
-
-.Live-Auctions-section{
+.Live-Auctions-section {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -278,7 +277,7 @@ li:hover {
   margin-top: 120px;
 }
 
-.Live-Auction{
+.Live-Auction {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -286,7 +285,7 @@ li:hover {
   height: 552px;
 }
 
-.live-auctions-header{
+.live-auctions-header {
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -294,7 +293,7 @@ li:hover {
   justify-content: space-between;
 }
 
-.Live-Auctions-header-text{
+.Live-Auctions-header-text {
   display: flex;
   flex-direction: row;
   font-family: 'Poppins', sans-serif;
@@ -303,7 +302,7 @@ li:hover {
   font-size: 30px;
   line-height: 64px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   float: left;
 }
 
@@ -332,178 +331,176 @@ li:hover {
   cursor: pointer;
 }
 
-
-.Auctions-cards{
+.Auctions-cards {
   display: flex;
   flex-direction: row;
   margin-top: 40px;
 }
 
-.Auctions-card1{
+.Auctions-card1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 284px;
   padding-bottom: 15px;
-  background: #272D37;
+  background: #272d37;
   border-radius: 16px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
-.Auctions-card-image1{
+.Auctions-card-image1 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/IMG-auctions1.png);
   background-size: contain;
 }
 
-.Auctions-card-image3{
+.Auctions-card-image3 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/IMG-auctions3.png);
   background-size: contain;
 }
 
-.Auctions-card-image2{
+.Auctions-card-image2 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/IMG-auctions2.png);
   background-size: contain;
 }
 
-.like-icone-nft{
+.like-icone-nft {
   float: right;
   margin-top: 20px;
   margin-right: 15px;
 }
 
-.like-icone-nft:hover{
+.like-icone-nft:hover {
   transform: translateY(-2px);
   cursor: pointer;
 }
 
-
-.Dao-Vinci-div{
+.Dao-Vinci-div {
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-top: 10px;
 }
 
-.Dao-Vinci{
+.Dao-Vinci {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.Current-Bid{
+.Current-Bid {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   text-align: center;
-  color: #ADB9C7;
-  margin: 0px;
-  padding: 0px; 
+  color: #adb9c7;
+  margin: 0;
+  padding: 0;
 }
 
-.SalvadorDali-div{
+.SalvadorDali-div {
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-top: 5px;
 }
 
-.SalvadorDali{
+.SalvadorDali {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.SalvadorDali-image{
+.SalvadorDali-image {
   width: 40px;
   height: 40px;
   margin-right: 10px;
 }
 
-.SalvadorDali-text{
+.SalvadorDali-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
   text-align: center;
-  color: #ADB9C7;
-  margin: 0px;
-  padding: 0px; 
+  color: #adb9c7;
+  margin: 0;
+  padding: 0;
 }
 
-.eTH{
+.eTH {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.Coutdown-div{
+.Coutdown-div {
   width: 90%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  padding-top: 0;
+  padding-bottom: 0;
   margin-top: 15px;
 }
 
-.Coutdown{
+.Coutdown {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.Coutdown-image{
+.Coutdown-image {
   width: 20px;
   height: 20px;
   margin-right: 10px;
 }
 
-.Coutdown-text{
+.Coutdown-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.bid-btn{
-  background-color: #1E50FF;
-  color: #FFFFFF;
+.bid-btn {
+  background-color: #1e50ff;
+  color: #fff;
   font-weight: 600;
   font-size: 16px;
   border: none;
@@ -516,25 +513,25 @@ li:hover {
   cursor: pointer;
 }
 
-.bid-btn:hover{
+.bid-btn:hover {
   background-color: #3e5ac2;
 }
 
-.Auctions-card1:hover{
+.Auctions-card1:hover {
   transform: translateY(-2px);
   cursor: pointer;
 }
 
-.Featured-Artist-section{
+.Featured-Artist-section {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
   margin-top: 120px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
-.Featured-Artist{
+.Featured-Artist {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -542,7 +539,7 @@ li:hover {
   padding: 20px;
 }
 
-.Featured-Artist-header{
+.Featured-Artist-header {
   display: flex;
   flex-direction: row;
   width: 90%;
@@ -550,7 +547,7 @@ li:hover {
   justify-content: space-between;
 }
 
-.Featured-Artist-header-text{
+.Featured-Artist-header-text {
   display: flex;
   flex-direction: row;
   font-family: 'Poppins', sans-serif;
@@ -559,7 +556,7 @@ li:hover {
   font-size: 30px;
   line-height: 64px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   float: left;
 }
 
@@ -588,7 +585,7 @@ li:hover {
   cursor: pointer;
 }
 
-.Featured-Artist-info{
+.Featured-Artist-info {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -596,7 +593,7 @@ li:hover {
   margin-top: 50px;
 }
 
-.Artist-image1{
+.Artist-image1 {
   margin-top: 5px;
   background-image: url(mediaFiles/user-profile-pic1.png);
   height: 120px;
@@ -605,7 +602,7 @@ li:hover {
   margin-right: 20px;
 }
 
-.Artist-image2{
+.Artist-image2 {
   margin-top: 5px;
   background-image: url(mediaFiles/user-profile-pic2.png);
   height: 120px;
@@ -614,7 +611,7 @@ li:hover {
   margin-right: 20px;
 }
 
-.Artist-image3{
+.Artist-image3 {
   margin-top: 5px;
   background-image: url(mediaFiles/user-profile-pic3.png);
   height: 120px;
@@ -623,7 +620,7 @@ li:hover {
   margin-right: 20px;
 }
 
-.Artist-image4{
+.Artist-image4 {
   margin-top: 5px;
   background-image: url(mediaFiles/user-profile-pic4.png);
   height: 120px;
@@ -632,7 +629,7 @@ li:hover {
   margin-right: 20px;
 }
 
-.Artist-image5{
+.Artist-image5 {
   margin-top: 5px;
   background-image: url(mediaFiles/user-profile-pic5.png);
   height: 120px;
@@ -641,7 +638,7 @@ li:hover {
   margin-right: 20px;
 }
 
-.Artist-image6{
+.Artist-image6 {
   margin-top: 5px;
   background-image: url(mediaFiles/user-profile-pic6.png);
   height: 120px;
@@ -650,25 +647,25 @@ li:hover {
   margin-right: 20px;
 }
 
-.check-icon{
+.check-icon {
   float: right;
   margin-top: 90px;
 }
 
-.user-name{
+.user-name {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
   margin-top: 20px;
   cursor: pointer;
 }
 
-.eth-details-div{
+.eth-details-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -676,18 +673,18 @@ li:hover {
   margin-top: 15px;
 }
 
-.eth-number{
+.eth-number {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
-.Hot-NFTs-section{
+.Hot-NFTs-section {
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -695,34 +692,34 @@ li:hover {
   margin-top: 30px;
 }
 
-.Hot-NFTs{
+.Hot-NFTs {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
 }
 
-.Hot-NFTs-header{
+.Hot-NFTs-header {
   display: flex;
   flex-direction: column;
   width: 100%;
   align-items: center;
 }
 
-.Hot-NFTs-header-text{
+.Hot-NFTs-header-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
   margin-top: 70px;
   cursor: pointer;
 }
 
-.Hot-NFTs-header-buttons{
+.Hot-NFTs-header-buttons {
   display: flex;
   flex-direction: row;
   width: 55%;
@@ -730,7 +727,7 @@ li:hover {
   margin-top: 30px;
 }
 
-.Hot-NFTs-header-btn{
+.Hot-NFTs-header-btn {
   background-color: rgba(30, 80, 255, 0.1);
   border: none;
   color: #fff;
@@ -741,69 +738,68 @@ li:hover {
   border-radius: 5px;
 }
 
-.Hot-NFTs-header-btn:hover{
-  background-color: #1E50FF;
+.Hot-NFTs-header-btn:hover {
+  background-color: #1e50ff;
   cursor: pointer;
   box-shadow: 10px 5px 52px rgba(30, 80, 255, 0.5);
   transform: translateY(-2px);
 }
 
-
-.Hot-NFTs-card-image1{
+.Hot-NFTs-card-image1 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/hot-nft-image1.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.Hot-NFTs-card-image2{
+.Hot-NFTs-card-image2 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/hot-nft-image2.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.Hot-NFTs-card-image3{
+.Hot-NFTs-card-image3 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/hot-nft-image3.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.Hot-NFTs-card-image4{
+.Hot-NFTs-card-image4 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/hot-nft-image4.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.Hot-NFTs-card-image5{
+.Hot-NFTs-card-image5 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/hot-nft-image5.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 
-.Hot-NFTs-card-image6{
+.Hot-NFTs-card-image6 {
   height: 273px;
   width: 260px;
   margin-top: 10px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   background-image: url(mediaFiles/hot-nft-image6.png);
   background-size: contain;
   background-repeat: no-repeat;
@@ -831,10 +827,10 @@ li:hover {
   cursor: pointer;
 }
 
-.gta-section{
+.gta-section {
   display: flex;
   flex-direction: column;
-  background-color: #1E50FF;
+  background-color: #1e50ff;
   width: 70%;
   height: 352px;
   margin-top: 130px;
@@ -842,32 +838,32 @@ li:hover {
   border-radius: 16px;
 }
 
-.gta-header{
+.gta-header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
   margin-top: 70px;
 }
 
-.gta-text{
+.gta-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-align: center;
-  color: #FFFFFF;
-  margin: 0px;
-  padding: 0px;
+  color: #fff;
+  margin: 0;
+  padding: 0;
   margin-top: 30px;
-  line-height: 32px
+  line-height: 32px;
 }
 
-.gta-btn-div{
+.gta-btn-div {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -875,11 +871,11 @@ li:hover {
   margin-top: 30px;
 }
 
-.gta-btn{
+.gta-btn {
   width: 200px;
   padding-top: 20px;
   padding-bottom: 20px;
-  color: #1E50FF;
+  color: #1e50ff;
   font-weight: 600;
   font-size: 16px;
   border-radius: 10px;
@@ -888,14 +884,14 @@ li:hover {
   font-family: 'Poppins', sans-serif;
 }
 
-.gta-btn:hover{
+.gta-btn:hover {
   cursor: pointer;
 }
 
-.footer-section{
+.footer-section {
   display: flex;
   flex-direction: row;
-  background-color: #02050E;
+  background-color: #02050e;
   background-image: url(mediaFiles/footer-background.png);
   justify-content: center;
   margin-top: 140px;
@@ -903,7 +899,7 @@ li:hover {
   height: 480px;
 }
 
-.footer-main-container{
+.footer-main-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -911,40 +907,43 @@ li:hover {
   width: 80%;
 }
 
-.footer-logo{
+.footer-logo {
   margin-top: 25px;
 }
 
-.footer-logo-list, .Contact-text {
+.footer-logo-list,
+.Contact-text {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 20px;
-  padding: 0px;
-  line-height: 32px
+  padding: 0;
+  line-height: 32px;
 }
 
-.resource-header, 
+.resource-header,
 .company-header,
-.Contact-header{
+.Contact-header {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
-  color: #FFFFFF;
-  padding: 0px;
-  line-height: 32px
+  color: #fff;
+  padding: 0;
+  line-height: 32px;
 }
 
-.footer-resource-list, .footer-company-list{
+.footer-resource-list,
+.footer-company-list {
   list-style-type: none;
   font-weight: 400;
   font-size: 12px;
 }
-.Facebook, 
-.Instagram, 
-.twitter{
+
+.Facebook,
+.Instagram,
+.twitter {
   cursor: pointer;
 }
