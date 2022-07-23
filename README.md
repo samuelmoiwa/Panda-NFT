@@ -10,7 +10,7 @@ Run the command below from the terminal
 - cd Panda-NFT
 - start main.html
 
-# Hello Microverse
+# Panda NTF
 
 > Description the project.
 - simple HTML & CSS code, single page NFT site design.
